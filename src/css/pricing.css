@@ -1,0 +1,104 @@
+
+.pricing-text-over-title {
+    font-family: "Sarabun",
+            sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 150%;
+        text-align: center;
+        color: #0d0b0a;
+        padding-top: 64px;
+        padding-bottom: 12px;
+}
+
+.pricing-title {
+    font-family: "Cabin", sans-serif;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 120%;
+        letter-spacing: 0.01em;
+        text-align: center;
+        color: #0d0b0a;
+        padding-bottom: 20px;
+}
+.pricing-text {
+    font-family: "Sarabun", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    text-align: center;
+    color: #0d0b0a;
+    padding-bottom: 48px;
+}
+.pricing-box-title {
+    font-family: "Cabin", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 140%;
+        letter-spacing: 0.01em;
+        text-align: center;
+        color: #0d0b0a;
+}
+.pricing-box-text {
+    font-family: "Cabin", sans-serif;
+        font-weight: 400;
+        font-size: 44px;
+        line-height: 120%;
+        letter-spacing: 0.01em;
+        text-align: center;
+        color: #0d0b0a;
+        padding-top: 8px;
+        padding-bottom: 16px;
+}
+
+.pricing-box {
+        border: 0px solid rgba(13, 11, 10, 0.15);
+        border-radius: 16px;
+        padding: 32px 24px;
+        width: 343px;
+        height: auto;
+        background: #dfebeb;
+        margin-bottom: 32px;
+}
+.pricing-box:last-child {
+    margin-bottom: 64px;
+}
+
+.pricing-list-text {
+    font-family: "Sarabun", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 160%;
+        color: #0d0b0a;
+        padding-bottom: 16px;
+        margin-left: 16px;
+}
+.pricing-list {
+    display: flex;
+    flex-direction: row;
+    row-gap: 16px;
+    justify-content: start;
+    align-items: start;
+}
+.pricing-button {
+    font-family: "Sarabun", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 160%;
+        color: #0d0b0a;
+        border: 1px solid #c2d9fc;
+        border-radius: 100px;
+        padding: 10px 24px;
+        width: 295px;
+        height: 46px;
+        background: #c2d9fc;
+        margin-top: 32px;
+        
+}
+@media screen and (min-width: 768px) {
+   
+}
+
+@media screen and (min-width: 1336px) {
+   
+}
