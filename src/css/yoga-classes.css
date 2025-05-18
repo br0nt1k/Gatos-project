@@ -13,11 +13,10 @@
   margin-bottom: 48px;
   width: 100%;
 }
+
 .yoga-subtitle {
   font-weight: 600;
   font-size: 16px;
-
-  /* line-height: 24px; */
   line-height: 1.5;
   text-align: center;
   color: #0d0b0a;
@@ -27,8 +26,6 @@
 .yoga-main-title {
   font-weight: 400;
   font-size: 40px;
-
-  /* line-height: 48px; */
   line-height: 1.2;
   letter-spacing: 0.01em;
   text-align: center;
@@ -46,6 +43,7 @@
   text-align: center;
   font-family: 'Sarabun', sans-serif;
 }
+
 .yoga-list {
   display: flex;
   align-items: center;
@@ -54,6 +52,7 @@
   gap: 48px;
   width: 100%;
 }
+
 .yoga-list-element {
   border-radius: 16px;
   overflow: hidden;
@@ -61,12 +60,11 @@
   width: 100%;
   box-sizing: border-box;
 }
+
 .yoga-list-item {
   font-weight: 400;
   font-size: 24px;
   font-family: 'Cabin', sans-serif;
-
-  /* line-height: 34px; */
   line-height: 1.4;
   letter-spacing: 0.01em;
   text-align: center;
@@ -76,6 +74,7 @@
   max-width: 343px;
   margin: 0 auto;
 }
+
 .yoga-list-img {
   width: 100%;
   display: block;
@@ -84,12 +83,11 @@
   overflow: hidden;
   height: auto;
 }
+
 .yoga-list-text {
   font-weight: 400;
   font-size: 16px;
   font-family: 'Sarabun', sans-serif;
-
-  /* line-height: 26px; */
   line-height: 1.6;
   text-align: center;
   color: #0d0b0a;
@@ -111,19 +109,20 @@
   background: #c2d9fc;
   margin-top: 48px;
 }
+
 .yoga-section-link {
   text-align: center;
   font-weight: 500;
   font-size: 16px;
-
-  /* line-height: 26px; */
   line-height: 1.6;
   color: #0d0b0a;
   font-family: 'Sarabun', sans-serif;
 }
+
 .yoga-list-responsive {
   display: inline;
 }
+
 @media screen and (min-width: 768px) and (max-width: 1335px) {
   .yoga-classes {
     background-color: #f2fafa;
