@@ -1,5 +1,5 @@
 :root {
-        --font-family: "Sarabun", sans-serif;
+        --font-family: "Sarabun", sans-serif;           
         --second-family: "Cabin", sans-serif;
         --third-family: "Roboto", sans-serif;
 
@@ -11,6 +11,14 @@
         text-align: center;
         background: var(--color-scheme-3-background);
 }
+
+.testimonial-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+}
+
 
 .section-title {
         font-size: 32px;
@@ -55,24 +63,36 @@
         list-style: none;     }
 
 .testimonial-item {
-        width: 100%;
-        max-width: 343px;
-        padding: 12px;
-        border-radius: 24px;
-        background: var(--color-scheme-2-foreground);
-        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
         display: flex;
         flex-direction: column;
         align-items: center;
-        text-align: center;
-        font-family: var(--font-family);
+        justify-content: space-between;
+        gap: 32px;
+        border-radius: 24px;
+        max-width: 343px;
+        padding: 12px;
+        width: 100%;
+       
+        background: var(--color-scheme-2-foreground);
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+       
 }
+
+.testimonial-text {
+        margin: 0;
+        font-style: italic;
+        font-size: 16px;
+        line-height: 1.5;
+        text-align: center;     
+}
+
 .testimonial-photo {
         width: 56px;
         height: 56px;
         border-radius: 50%;
         margin: 0 auto;
-        display: block;     
+        display: block;
+        object-fit: cover;
 }
 
 .testimonial-name {
@@ -80,24 +100,18 @@
         font-weight: 700;
         margin-bottom: 4px;
         color: #000;
-        font-family: var(--second-family);     
+        font-family: var(--second-family);
+        text-align: center;     
 }
 
 .testimonial-role {
         font-size: 14px;
         color: #666;
         font-family: var(--third-family);
+        text-align: center;
 }
 
-.testimonial-text {
-        font-size: 22px;
-        font-weight: 400;
-        line-height: 1.6;
-        color: var(--color-scheme-3-text);
-        font-family: var(--font-family);
-        text-align: center;
-        margin-bottom: 16px;
-}
+
 
 /* ========== DONNA NORMAN ========== */
 .testimonial-item--donna {
