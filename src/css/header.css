@@ -75,7 +75,6 @@
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-logo {
-    border: none;
     background-color: transparent;
     padding: 2.86px 0.5px 9.63px 0.35px;
 }
@@ -206,7 +205,7 @@
 }
 .modal-link {
     height: 46px;
-    width: 288px;
+    min-width: 288px;
     background-color: #c2d9fc;
     border: 1px solid #c2d9fc;
     border-radius: 100px;
@@ -222,12 +221,12 @@
 }
 @media screen and (min-width: 375px) {
     .modal-link {
-        width: 343px;
+        min-width: 343px;
     }
 }
 @media screen and (min-width: 768px) {
     .modal-link {
-        width: 204px;
+        min-width: 204px;
     }
 }
 /* #endregion modal-menu */
