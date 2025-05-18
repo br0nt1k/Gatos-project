@@ -1,4 +1,11 @@
+p, h2 { 
+    color: #0d0b0a;
 
+}
+.pricing-container {
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
 .pricing-text-over-title {
     font-family: "Sarabun",
             sans-serif;
@@ -6,8 +13,6 @@
         font-size: 16px;
         line-height: 150%;
         text-align: center;
-        color: #0d0b0a;
-        padding-top: 64px;
         padding-bottom: 12px;
 }
 
@@ -18,7 +23,6 @@
         line-height: 120%;
         letter-spacing: 0.01em;
         text-align: center;
-        color: #0d0b0a;
         padding-bottom: 20px;
 }
 .pricing-text {
@@ -27,7 +31,6 @@
     font-size: 16px;
     line-height: 160%;
     text-align: center;
-    color: #0d0b0a;
     padding-bottom: 48px;
 }
 .pricing-box-title {
@@ -37,7 +40,6 @@
         line-height: 140%;
         letter-spacing: 0.01em;
         text-align: center;
-        color: #0d0b0a;
 }
 .pricing-box-text {
     font-family: "Cabin", sans-serif;
@@ -46,22 +48,22 @@
         line-height: 120%;
         letter-spacing: 0.01em;
         text-align: center;
-        color: #0d0b0a;
         padding-top: 8px;
         padding-bottom: 16px;
 }
 
 .pricing-box {
-        border: 0px solid rgba(13, 11, 10, 0.15);
-        border-radius: 16px;
-        padding: 32px 24px;
-        width: 343px;
-        height: auto;
-        background: #dfebeb;
-        margin-bottom: 32px;
+    display: flex;
+    flex-direction: column;
+    border: 0px solid rgba(13, 11, 10, 0.15);
+    border-radius: 16px;
+    padding: 32px 24px;
+    width: 343px;
+    height: auto;
+    background: #dfebeb;
 }
-.pricing-box:last-child {
-    margin-bottom: 64px;
+.pricing-box:not(:last-child) {
+    margin-bottom: 24px;
 }
 
 .pricing-list-text {
@@ -69,15 +71,14 @@
         font-weight: 400;
         font-size: 16px;
         line-height: 160%;
-        color: #0d0b0a;
         padding-bottom: 16px;
-        margin-left: 16px;
 }
 .pricing-list {
     display: flex;
     flex-direction: row;
     justify-content: start;
     align-items: start;
+    gap: 16px;
 }
 .pricing-button {
     font-family: "Sarabun", sans-serif;
@@ -91,57 +92,113 @@
         width: 295px;
         height: 46px;
         background: #c2d9fc;
-        margin-top: 32px;
         
 }
 @media screen and (min-width: 768px) {
-    .pricing-text {
-            font-size: 18px;
-        }
-        .pricing-box-text {
-            margin-bottom: 32px;
-            font-size: 72px;
-        }
-        .pricing-box-container {
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            justify-content: center;
-            align-items: center;
-            gap: 24px;
-    
-        }
-    
-        .pricing-box:not(:last-child) {
-            width: calc(50% - 24px);
-        }
-    
-        .pricing-box-title {
-            margin-bottom: 8px;
-        }
-    
-        .pricing-box {
-            margin: 0 auto;
-            padding: 16px;
-            width: 340px;
-    
-        }
-    
-        .pricing-box:last-child {
-            width: 100%;
-            margin-bottom: 40px;
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            gap: 24px;
-            justify-content: space-around;
-            align-items: flex-start;
-            padding: 86px 16px;
-        }
-
+       .pricing-container {
+        padding: 40px 32px;
+       } 
+       .pricing-text-over-title {
+        padding-bottom: 16px;
+       }
+       .pricing-text {
+        font-size: 18px;
+        padding-bottom: 24px;
+       }  
+       .pricing-box-text {
+        font-size: 72px;
+        padding-bottom: 32px;
+       }
+        .pricing-title {
+        padding-bottom: 24px;
  } 
+     .pricing-box-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        display: flex;
+        gap: 24px;
+       
+     }
+     .pricing-box {
+        width: calc((100% - 24px) / 2);
+     }
+    .pricing-box:not(:last-child) {
+             margin-bottom: initial;
+         }
+    .pricing-button {
+        margin-top: 32px;
+    }
+    .pricing-box:last-child {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: flex-start;
+        height: 383px;
+        padding: 86px 16px;
+        position: relative;
+    }
+    .pricing-list-hidden {
+        display: none;
+    }
+    .pricing-button-last {
+        position: absolute;
+        left: 16px;
+        bottom: 86px;
+    }
+    .pricing-box-text-last {
+        padding: 24px 0;
+    }
+}
 
-@media screen and (min-width: 1336px) {}
+@media screen and (min-width: 1336px) {
+    .pricing-container {
+            padding: 112px 40px;
+        }
+    .pricing-box-text {
+            padding-bottom: 40px;  }
+    .pricing-title {
+    font-size: 52px;     
+}
+.pricing-box-title {
+    font-size: 22px;
+}
+.pricing-button-last {
+    position: initial;
+    left: initial;
+    bottom: initial;
+}
+  .pricing-box {
+    padding: 32px;
+    width: calc((100% - 48px) / 3);
+    height: 509px;
+    margin:  0 auto;
+  }
+  .pricing-change {
+    align-self: center;
+    justify-content: space-around;
+  }
+.pricing-box:last-child {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+        height: auto;
+        padding: 32px;
+        position: initial;
+        width: calc((100% - 48px) / 3);
+}
+
+.pricing-box-text-last {
+    padding-top: 8px;
+    padding-bottom: 32px;
+}
+.pricing-button {
+    align-self: center;
+    margin-top: auto;
+}
+}
+
 
 
        
