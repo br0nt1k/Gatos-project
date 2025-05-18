@@ -1,0 +1,126 @@
+.team {
+    background-image: #f2fafa;
+    padding: 64px 16px;
+}
+
+.team-text-before-title {
+    font-family: "Sarabun", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    color: #0d0b0a;
+}
+
+.team-title {
+    font-family: "Cabin", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #0d0b0a;
+}
+
+.team-text-after-title {
+    font-family: "Sarabun", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    color: #0d0b0a;
+    margin-bottom: 48px;
+}
+
+.team-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 48px;
+}
+
+.team-list-item {
+    max-width: 100%;
+}
+
+.team-items {
+    padding-top: 20px; 
+}
+
+.team-list-item-title {
+    font-family: "Sarabun", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+    color: #0d0b0a;
+}
+
+.team-list-item-text-1 {
+    font-family: "Sarabun", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    color: #0d0b0a;
+    margin-bottom: 12px;
+}
+
+.team-list-item-text-2 {
+    font-family: "Sarabun", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    color: #0d0b0a;
+    margin-bottom: 20px;
+}
+
+.icons-list {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.icons-item {
+    width: 19px;
+    height: 19px;
+}
+
+.icon-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;  
+    background-color: #fff;     
+}
+
+.socials {
+    fill: #0d0b0a;
+    stroke: #0d0b0a;
+}
+
+@media screen and (min-width: 768px) {
+    .team-list {
+        row-gap: 24px;
+        column-gap: 24px;
+    }
+    
+    .team-list-item {
+        max-width: calc((100% - 24px) /2);
+    }
+}
+
+@media screen and (min-width: 1336px) {
+    .team-list {
+        row-gap: 67px;
+        column-gap: 24px;
+    }
+    
+    .team-list-item {
+        max-width: calc((100% - 48px) /3);
+    }
+}

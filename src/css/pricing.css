@@ -179,26 +179,26 @@
     }
 
     .pricing-box-title {
-    font-size: 22px;
+        font-size: 22px;
     }
 
     .pricing-button-last {
-    position: initial;
-    left: initial;
-    bottom: initial;
-    min-width: 0;
+        position: initial;
+        left: initial;
+        bottom: initial;
+        min-width: 0;
     }
 
     .pricing-box {
-    padding: 32px;
-    width: calc((100% - 48px) / 3);
-    height: 509px;
-    margin:  0 auto;
+        padding: 32px;
+        width: calc((100% - 48px) / 3);
+        height: 509px;
+        margin:  0 auto;
     }
 
     .pricing-change {
-    align-self: center;
-    justify-content: space-around;
+        align-self: center;
+        justify-content: space-around;
     }
 
     .pricing-box:last-child {
@@ -212,13 +212,13 @@
     }
 
     .pricing-box-text-last {
-    padding-top: 8px;
-    padding-bottom: 32px;
+        padding-top: 8px;
+        padding-bottom: 32px;
     }
 
     .pricing-button {
-    align-self: center;
-    margin-top: auto;
+        align-self: center;
+        margin-top: auto;
     }
 }
 
