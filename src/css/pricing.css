@@ -157,6 +157,7 @@
         position: absolute;
         left: 16px;
         bottom: 86px;
+        min-width: 320px;
     }
 
     .pricing-box-text-last {
@@ -185,6 +186,7 @@
     position: initial;
     left: initial;
     bottom: initial;
+    min-width: 0;
     }
 
     .pricing-box {
