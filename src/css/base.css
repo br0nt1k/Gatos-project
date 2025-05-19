@@ -80,9 +80,16 @@ button {
 .yoga-section-link:hover,
 .yoga-section-link:focus,
 .pricing-button:hover,
-.pricing-button:focus{
+.pricing-button:focus,
+.but-about-us-join:hover,
+.but-about-us-join:focus{
     background-color: #0066ff57;
     border: 1px solid #0066ff57;;
+}
+
+.modal-submit-btn:hover,
+.modal-submit-btn:focus {
+    background-color: #0066ff57;;
 }
 
 .hero-link-more:hover,

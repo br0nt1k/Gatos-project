@@ -1,20 +1,7 @@
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-ul {
-    margin: 0;
-    padding: 0;
-}
 .about-us {
     background-color: #DFEBEB;
 }
 .con-about-us {
-    position: relative;
-    max-width: 375px;
     padding: 64px 16px;
     margin: 0 auto;
 }
@@ -75,11 +62,17 @@ ul {
     width: 100%;
     height: 46px;
     margin: 0 auto;
+    max-width: 343px;
+    color: #0d0b0a;
 }
+
+.about-us-now{
+    display: none;
+}
+
 @media screen and (min-width: 768px) {
     .con-about-us {
-       min-width: 768px;
-       padding: 40px 32px;
+       padding: 40px 0;
     }
     .wrap-title-about-us {
         gap: 24px;
@@ -118,10 +111,18 @@ ul {
     .but-about-us {
         width: 110px;
     }
-    .span-now {
+
+    .but-about-us-join{
+        max-width: 110px;
+        gap: 5px;
+    }
+
+    .about-us-now {
         font-weight: 500;
         font-size: 16px;
         line-height: 1.6;
+        display: inline-block;
+        color: #0d0b0a;
     }
 }
 @media screen and (min-width: 1336px) {
