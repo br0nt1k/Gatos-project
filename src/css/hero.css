@@ -1,14 +1,14 @@
-.hero-img-container{
+.hero-img-container {
     max-width: 375px;
     margin: 0 auto;
     padding: 0;
 }
 
-.hero-items{
+.hero-items {
     padding: 48px 0;
 }
 
-.hero-ttl{
+.hero-ttl {
     font-weight: 400;
     font-size: 44px;
     line-height: 1.2;
@@ -19,7 +19,7 @@
     font-family: "Cabin", sans-serif;
 }
 
-.hero-txt{
+.hero-txt {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.6;
@@ -29,14 +29,14 @@
     font-family: "Sarabun", sans-serif;
 }
 
-.hero-links{
+.hero-links {
     display: flex;
     gap: 16px;
     flex-direction: column;
     text-align: center;
 }
 
-.hero-link-join{
+.hero-link-join {
     border: 1px solid #c2d9fc;
     border-radius: 100px;
     padding: 10px 24px;
@@ -44,13 +44,13 @@
     height: 46px;
     background: #c2d9fc;
     font-weight: 500;
-    font-size: 16px; 
+    font-size: 16px;
     line-height: 1.6;
     color: #0d0b0a;
     font-family: "Sarabun", sans-serif;
 }
 
-.hero-link-now{
+.hero-link-now {
     display: none;
 }
 
@@ -68,43 +68,43 @@
     font-family: "Sarabun", sans-serif;
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
     .hero-img-container {
         max-width: 768px;
     }
 
-    .hero-items{
+    .hero-items {
         padding-top: 24px;
         padding-bottom: 24px;
         padding-right: 60px;
         padding-left: 0;
     }
 
-    .hero-ttl{
+    .hero-ttl {
         margin-bottom: 8px;
         max-width: 426px;
     }
 
-    .hero-txt{
+    .hero-txt {
         font-size: 18px;
         margin-bottom: 32px;
         max-width: 641px;
     }
 
-    .hero-links{
+    .hero-links {
         flex-direction: row;
     }
 
-    .hero-link-now{
-        display:    inline;
+    .hero-link-now {
+        display: inline;
     }
 
-    .hero-link-join{
+    .hero-link-join {
         max-width: 145px;
     }
 
-    .hero-link-more{
-        max-width:  145px;
+    .hero-link-more {
+        max-width: 145px;
     }
 }
 
@@ -113,11 +113,11 @@
         max-width: 1336px;
     }
 
-    .hero-items{
+    .hero-items {
         display: flex;
     }
 
-    .hero-ttl{
+    .hero-ttl {
         margin-right: 24px;
         max-width: 644px;
         font-weight: 400;
@@ -126,11 +126,11 @@
         letter-spacing: 0.01em;
     }
 
-    .hero-items{
+    .hero-items {
         padding: 80px 0;
     }
 
-    .hero-txt{
+    .hero-txt {
         font-weight: 400;
         font-size: 18px;
         margin-bottom: 32px;
