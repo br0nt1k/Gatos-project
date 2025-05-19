@@ -205,7 +205,7 @@
 }
 .modal-link {
     height: 46px;
-    min-width: 288px;
+    width: 288px;
     background-color: #c2d9fc;
     border: 1px solid #c2d9fc;
     border-radius: 100px;
@@ -221,12 +221,12 @@
 }
 @media screen and (min-width: 375px) {
     .modal-link {
-        min-width: 343px;
+        width: 343px;
     }
 }
 @media screen and (min-width: 768px) {
     .modal-link {
-        min-width: 204px;
+        width: 204px;
     }
 }
 /* #endregion modal-menu */
