@@ -59,6 +59,7 @@
     padding: 32px 24px;
     height: auto;
     background: #dfebeb;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25)
 }
 
 .pricing-box:not(:last-child) {
@@ -194,6 +195,12 @@
         width: calc((100% - 48px) / 3);
         height: 509px;
         margin:  0 auto;
+        box-shadow: none;
+    }
+
+    .pricing-box:hover {
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+        transition: box-shadow 150ms ease-in-out;
     }
 
     .pricing-change {

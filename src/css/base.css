@@ -11,7 +11,10 @@
 body {
     background-color: #f2fafa;
     color: #0d0b0a;
-    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 a {
@@ -65,3 +68,33 @@ button {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+
+.header-link:hover,
+.header-link:focus,
+.header-link-now:hover,
+.header-link-now:focus,
+.modal-link:hover,
+.modal-link:focus,
+.hero-link-join:hover,
+.hero-link-join:focus,
+.yoga-section-link:hover,
+.yoga-section-link:focus,
+.pricing-button:hover,
+.pricing-button:focus{
+    background-color: #0066ff57;
+    border: 1px solid #0066ff57;;
+}
+
+.hero-link-more:hover,
+.hero-link-more:focus,
+.footer-button:hover,
+.footer-button:focus{
+    background-color: rgba(0, 0, 0, 0.212);
+    border: 1px solid rgb(0, 0, 0);;
+}
+
+.link-text-footer:hover,
+.link-text-footer:focus{
+    color: rgba(0, 0, 0, 0.212);
+}
+
