@@ -36,18 +36,16 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 });
-document.querySelectorAll('.header-link, .header-link-now, .modal-item-link, .modal-link').forEach(link => {
-    link.addEventListener('click', function(event) {
-        event.preventDefault(); // Запобігає стандартній навігації
-        document.querySelector('.modal-menu').classList.remove('is-open'); // Закриває модалку
-        document.querySelector(this.getAttribute('href')).scrollIntoView({ behavior: 'smooth' }); // Плавний скролінг
-    });
-});
 document.addEventListener("click", event => {
-    const link = event.target.closest(".header-item-link, .header-link, .header-link-now");
+    const link = event.target.closest(".header-item-link, .header-link, .header-link-now, .modal-item-link, .modal-link");
     if (!link) return;
-
     event.preventDefault();
+
+    const targetSection = document.querySelector(link.getAttribute("href"));
+    if (!targetSection) return; // Запобігає помилкам, якщо якірного елемента не існує
+    
+    document.querySelector('.modal-menu').classList.remove('is-open'); // Закриває модалку
+    document.body.style.overflow = "auto"; // Відновлення скролінгу
     document.querySelector(link.getAttribute("href")).scrollIntoView({ behavior: "smooth" });
 });
 
