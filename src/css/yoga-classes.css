@@ -6,14 +6,6 @@
   padding: 64px 0;
 }
 
-.yoga-main-box {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  margin-bottom: 48px;
-  width: 100%;
-}
-
 .yoga-subtitle {
   font-weight: 600;
   font-size: 16px;
@@ -30,7 +22,7 @@
   letter-spacing: 0.01em;
   text-align: center;
   color: #0d0b0a;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
   font-family: 'Cabin', sans-serif;
 }
 
@@ -70,9 +62,8 @@
   text-align: center;
   color: #0d0b0a;
   font-family: inherit;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
   max-width: 343px;
-  margin: 0 auto;
 }
 
 .yoga-list-img {
@@ -91,7 +82,7 @@
   line-height: 1.6;
   text-align: center;
   color: #0d0b0a;
-  padding: 0 16px 24px;
+  margin: 20px 16px 24px;
   max-width: 343px;
   margin: 0 auto;
 }
@@ -121,18 +112,12 @@
     background-color: #f2fafa;
   }
 
-  .yoga-main-box {
-    margin-bottom: 40px;
-    max-width: 704px;
-    width: 100%;
-  }
-
   .yoga-subtitle {
     margin-bottom: 16px;
   }
 
   .yoga-main-title {
-    padding-bottom: 24px;
+    margin-bottom: 24px;
   }
 
   .yoga-text {
@@ -180,12 +165,6 @@
 @media screen and (min-width: 1336px) {
   .yoga-classes {
     background-color: #f2fafa;
-  }
-  .yoga-main-box {
-    width: 768px;
-    flex-direction: column;
-    gap: 24px;
-    margin: 0 auto;
   }
   .yoga-main-title {
     font-size: 52px;

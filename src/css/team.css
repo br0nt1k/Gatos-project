@@ -1,6 +1,6 @@
 .team {
     background-color: #fff;
-    padding: 64px 16px;
+    padding: 64px 0;
 }
 
 .team-text-before-title {
@@ -44,7 +44,7 @@
 }
 
 .team-items {
-    padding-top: 20px; 
+    margin-top: 20px; 
 }
 
 .team-list-item-title {

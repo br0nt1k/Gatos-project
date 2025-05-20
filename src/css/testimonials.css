@@ -1,11 +1,3 @@
-:root {
-        --font-family: "Sarabun", sans-serif;           
-        --second-family: "Cabin", sans-serif;
-        --third-family: "Roboto", sans-serif;
-
-        --color-scheme-2-foreground: #eaf4f4;
-        --color-scheme-3-background: #f9f9f9;
-}
 
 .testimonials {
         text-align: center;
@@ -22,7 +14,7 @@
 
 .testimonial-title {
         font-size: 32px;
-        font-weight: 700;
+        font-weight: 400;
         margin-bottom: 8px;
         font-family: var(--second-family);
 }
@@ -31,7 +23,7 @@
         font-size: 16px;
         color: #888;
         margin-bottom: 40px;
-        font-family: var(--third-family);
+        font-family: var(--third-family) sans-serif;
 }
 
 .testimonials-list {
@@ -46,10 +38,11 @@
 
 .testimonial-text {
         color: #111;
-        font-size: 16px;
-        line-height: 1.5;
-        font-style: italic;
+        font-size: 22px;
+        line-height: 1.6;
         margin-bottom: 16px;
+        font-family: var(--font-family);
+        font-weight: 400;
 }
 /* ============================ */
 /* ========== MOBILE ========== */
@@ -74,7 +67,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
-        gap: 32px;
+        gap: 16px;
         border-radius: 24px;
         padding: 12px;
         width: 100%;
@@ -82,13 +75,6 @@
         background: var(--color-scheme-2-foreground);
         box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
        
-}
-
-.testimonial-text {
-        font-style: italic;
-        font-size: 16px;
-        line-height: 1.5;
-        text-align: center;     
 }
 
 .testimonial-photo {
@@ -103,17 +89,19 @@
 .testimonial-name {
         font-size: 18px;
         font-weight: 700;
-        margin-bottom: 4px;
         color: #000;
-        font-family: var(--second-family);
+        font-family: var(--font-family);
         text-align: center;     
 }
 
 .testimonial-role {
-        font-size: 14px;
+        font-size: 16px;
         color: #666;
         font-family: var(--third-family);
         text-align: center;
+        margin-top: -16px;
+        line-height: 1.6;
+        font-weight: 400;
 }
 
 /* ============================ */
@@ -128,6 +116,14 @@
         .testimonials-list {
                 gap: 24px;
                 justify-content: center;
+        }
+
+        .testimonial-text{
+                margin-bottom: 86px;
+        }
+
+        .testimonial-text-emma{
+                margin-bottom: 16px;
         }
 
         .testimonial-item {
@@ -150,16 +146,25 @@
         .testimonials-list {
                 display: grid;
                 grid-template-columns: repeat(2, 1fr);
-                gap: 24px;
+                gap: 36px;
                 justify-content: center;
+                
         }
 
-        .testimonial-text-norman{
-                margin-bottom: 0;
+        .testimonial-text{
+                max-width: 620px;
+        }
+        .testimonial-text-sophie{
+                margin-bottom: 86px;
+        }
+
+        .testimonial-text-rachel{
+                margin-bottom: 51px;
         }
 
         .testimonial-item {
                 box-shadow: none;
+                min-width: 644px;
         }
 
         .testimonial-item:hover {
@@ -168,28 +173,5 @@
         }
 }
 
-/* ===== Text and photo in card ===== */
 
-.testimonial-photo {
-        border-radius: 50%;
-        margin: 0 auto 12px;
-        display: block;
-}
 
-.testimonial-name {
-        font-size: 18px;
-        font-weight: 700;
-        margin-bottom: 4px;
-        color: #000;
-        font-family: var(--second-family);
-}
-
-.testimonial-role {
-        font-size: 14px;
-        color: #666;
-        font-family: var(--third-family);
-}
-
-.testimonial-photo-norman {
-        margin: 2px;
-}
