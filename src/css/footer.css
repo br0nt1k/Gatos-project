@@ -65,6 +65,8 @@
     font-size: 12px;
     line-height: 1.6;
     color: #0d0b0a;
+    margin-bottom: 48px;
+    margin-top: -10px;
 }
 
 .links-title-footer {
@@ -187,6 +189,11 @@
        
     }
 
+    .text-btn{
+        margin-bottom: 40px;
+        margin-top: -15px;
+    }
+
     .social-media-text {
         margin-bottom: 16px;
     }
@@ -225,6 +232,9 @@
         margin-bottom: 24px;
     }
 
+    .text-btn{
+        margin-top: -20px;
+    }
     .footer-input {
         width: 501px;
     }
