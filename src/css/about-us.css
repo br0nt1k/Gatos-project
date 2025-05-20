@@ -1,9 +1,6 @@
 .about-us {
     background-color: #DFEBEB;
-}
-.con-about-us {
-    padding: 64px 16px;
-    margin: 0 auto;
+    padding: 64px 0;
 }
 .wrap-title-about-us {
     gap: 20px;
@@ -20,13 +17,23 @@
     letter-spacing: 0.01em;
     text-align: center;
     color: #0D0B0A;
+    margin-bottom: 20px;
 }
 .text-about-us {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.6;
     text-align: center;
+    margin-bottom: 48px;
 }
+
+.text-about-us-list{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+}
+
 .listing-about-us {
     display: flex;
     align-items: center;
@@ -59,10 +66,8 @@
     background-color: #C2D8FC;
     border-radius: 100px;
     padding: 10px 24px;
-    width: 100%;
     height: 46px;
     margin: 0 auto;
-    max-width: 343px;
     color: #0d0b0a;
 }
 
@@ -71,7 +76,7 @@
 }
 
 @media screen and (min-width: 768px) {
-    .con-about-us {
+    .about-us {
        padding: 40px 0;
     }
     .wrap-title-about-us {
@@ -83,15 +88,14 @@
         font-size: 40px;
         line-height: 1.2;
         letter-spacing: 0.01em;
-        /* text-align: center; */
+        margin-bottom: 24px;
     }
     .listing-about-us {
         justify-content: center;
         align-items: baseline;
         flex-direction: row;
-        gap: 24px 46px;
+        gap: 47px 24px;
         flex-wrap: wrap;
-        /* max-width: 704px; */
     }
     .list-about-us {
         width: 340px;
@@ -105,11 +109,14 @@
         font-size: 24px;
         line-height: 1.4;
         letter-spacing: 0.01em;
-        /* text-align: center; */
         margin: 0;
     }
     .but-about-us {
         width: 110px;
+    }
+
+    .text-about-us{
+        margin-bottom: 40px;
     }
 
     .but-about-us-join{
@@ -124,11 +131,15 @@
         display: inline-block;
         color: #0d0b0a;
     }
+
+    .listing-about-us{
+        margin-bottom: 40px;
+    }
 }
 @media screen and (min-width: 1336px) {
-    .con-about-us {
+    .about-us {
         min-width: 1336px;
-        padding: 112px 64px;
+        padding: 112px 0;
     }
     .wrap-title-about-us {
         gap: 24px;
@@ -138,7 +149,6 @@
         font-size: 52px;
         line-height: 1.2;
         letter-spacing: 0.01em;
-        /* text-align: center; */
     }
     .listing-about-us {
         max-width: 1312px;

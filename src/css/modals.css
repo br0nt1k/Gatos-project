@@ -40,12 +40,10 @@
     padding-right: 16px;
 
     transform: translate(-50%, -50%);
-
-    width: 375px;
     min-height: 720px;
 
     background-color: #dfebeb;
-
+    width: 95%;
     transition-property: transform;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -107,7 +105,6 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin-bottom: 112px;
     row-gap: 24px;
 }
 

@@ -69,6 +69,15 @@ button {
     overflow: hidden;
 }
 
+:root {
+    --font-family: "Sarabun", sans-serif;
+    --second-family: "Cabin", sans-serif;
+    --third-family: "Roboto", sans-serif;
+
+    --color-scheme-2-foreground: #eaf4f4;
+    --color-scheme-3-background: #f9f9f9;
+}
+
 .header-link:hover,
 .header-link:focus,
 .header-link-now:hover,
@@ -82,7 +91,9 @@ button {
 .pricing-button:hover,
 .pricing-button:focus,
 .but-about-us-join:hover,
-.but-about-us-join:focus{
+.but-about-us-join:focus
+.modal-submit-btn:hover,
+.modal-submit-btn:focus{
     background-color: #0066ff57;
     border: 1px solid #0066ff57;;
 }
@@ -95,7 +106,11 @@ button {
 .hero-link-more:hover,
 .hero-link-more:focus,
 .footer-button:hover,
-.footer-button:focus{
+.footer-button:focus,
+.footer-input:hover,
+.footer-input:focus
+.modal-form-input:hover,
+.modal-form-input:focus{
     background-color: rgba(0, 0, 0, 0.212);
     border: 1px solid rgb(0, 0, 0);;
 }

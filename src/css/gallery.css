@@ -1,16 +1,6 @@
-.container-gallery {
-    margin-top: 64px;
-    margin-bottom: 64px;
+.gallery {
+    padding: 64px 0;
 }
-
-.text-gallery {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    flex-direction: column;
-    gap: 20px;
-}
-
 .title-gallery {
     font-family: "Cabin", sans-serif;
     font-weight: 400;
@@ -19,6 +9,7 @@
     letter-spacing: 0.01em;
     text-align: center;
     color: #0d0b0a;
+    margin-bottom: 20px;
 }
 
 .p-gallery {
@@ -28,6 +19,7 @@
     line-height: 1.6;
     text-align: center;
     color: #0d0b0a;
+    margin-bottom: 48px;
 }
 
 .ul-gallery {
@@ -37,7 +29,6 @@
     align-items: flex-start;
     justify-content: center;
     flex-direction: row;
-    padding-top: 48px;
     max-width: 335px;
     margin: 0 auto;
     list-style: none;
@@ -48,38 +39,42 @@
 }
 
 @media screen and (min-width: 768px) {
-    .container-gallery {
-        margin-top: 40px;
-        margin-bottom: 40px;
-        }
-    
-    .text-gallery {
-        gap: 24px;
+    .gallery{
+        padding: 40px 0;
     }
-    
+
+    .p-gallery {
+        margin-bottom: 80px;
+    }
+    .title-gallery {
+        margin-bottom: 24px;    
+    }
     .li-gallery {
         width: calc((100% - 24px) / 2);
     }
 
     .ul-gallery {
         max-width: 704px;
-        padding-top: 80px;
     }
 
     .img-gallery {
         width: 340px;
         height: 290px;
     }
+
 }
 
 @media screen and (min-width: 1336px) {
     .title-gallery {
-        font-size: 52px
+        font-size: 52px;
+        margin-bottom: 24px;    
     }
 
     .p-gallery {
         font-weight: 500;
         max-width: 768px;
+        margin: 0 auto;
+        margin-bottom: 80px;
     }
 
     .ul-gallery {
@@ -95,10 +90,4 @@
             height: auto;
             display: block;
     }
-
-    .container-gallery {
-        margin-top: 112px;
-        margin-bottom: 112px;
-    }
-
 }
