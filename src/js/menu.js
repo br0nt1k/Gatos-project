@@ -45,7 +45,7 @@ document.addEventListener("click", event => {
     if (!targetSection) return; // Запобігає помилкам, якщо якірного елемента не існує
     
     document.querySelector('.modal-menu').classList.remove('is-open'); // Закриває модалку
-    document.body.style.overflow = "auto"; // Відновлення скролінгу
+    document.body.style.overflow = "auto"; // Відновлення скролінгу на сторінці
     document.querySelector(link.getAttribute("href")).scrollIntoView({ behavior: "smooth" });
 });
 
